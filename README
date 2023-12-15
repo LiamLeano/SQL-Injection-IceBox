@@ -1,0 +1,5 @@
+to launch, you must create a database called dummy_database in phpMyAdmin and then import the file dummy_database.sql
+
+Once XAMMP is ready, acces the webpages here:
+https://localhost/assessment_1/login_page_vulnerable/
+https://localhost/assessment_1/login_page/

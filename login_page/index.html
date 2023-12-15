@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+    <!--metadata-->
+    <head>
+
+        <link rel="icon" type="image/x-icon" href="media/icon.png">
+        <title>IceBox</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <!--content-->
+    <body>
+
+        <!--brand icon & logo-->
+        <div class="header">
+            <img src="media/icon.png" alt="IceBox Logo" class="logo" height="75px"> 
+            <img src="media/logo.png" alt="IceBox Logo" class="logo" width="200px"> 
+        </div>
+
+        <!--box-->
+        <div class="box">
+            <h2>Login</h2>
+
+            <!--form to verify user input'-->
+            <form method="post" action="login.php">
+
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username"><br><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password"><br><br>
+
+                <input type="submit" value="Login">
+
+            </form>
+        </div>
+
+        <!--footer-->
+        <footer>
+            <p>&copy; 2023 IceBox</p>
+        </footer>
+
+    </body>
+
+</html>
